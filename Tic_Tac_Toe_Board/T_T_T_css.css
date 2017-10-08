@@ -1,0 +1,72 @@
+td {
+	width: 100px;
+	height:100px;
+	margin:0;
+}
+table{
+	margin: auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+body {
+	background: lightblue;
+	width:100%;
+}
+ /*left across for order of css */
+ /*
+#top_left {
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+}
+
+#top_middle {
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+}
+#top_right {
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+}
+#middle_left {
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+}
+#center {
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+}
+#middle_right {
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+}
+#bottom_left {
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+}
+#bottom_middle {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+}
+#bottom_right {
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+}
+The video solved it another way */
+
+.vertical {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+.horizontal {
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}

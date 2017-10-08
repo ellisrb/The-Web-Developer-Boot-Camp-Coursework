@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bonus Task</title>
+</head>
+<body>
+
+	<h1>Register</h1>
+
+	<!-- Form Containing it all -->
+	<form>
+		<label for="firstName">First Name</label>
+		<input type="text" name="firstName" id="firstName" required>
+
+		<label for="lastName">Last Name</label>
+		<input type="text" name="lastName" id="lastName" required>
+
+		<br />
+
+		<label for="genderChoiceM">Male:</label>
+		<input type="radio" name="genderChoice" id="genderChoiceM" value="male" required>
+
+		<label for="genderChoiceF">Female</label>
+		<input type="radio" name="genderChoice" id="genderChoiceF" value="female" required>
+
+		<br />
+
+		<label for="email">Email:</label>
+		<input type="email" name="email" id="email" required>
+
+		<label for="password">Password:</label>
+		<input type="password" name="password" id="password" minlength="5" maxlength="10" required>
+
+		<br />
+
+		<label for="birthday">Birthday:</label>
+		<select name="day" id="birthday">
+			<option>01</option>
+			<option>02</option>
+			<option>03</option>
+		</select>
+
+		<select name="month" id="birthday">
+			<option>Jan</option>
+			<option>Feb</option>
+			<option>Mar</option>
+		</select>
+
+		<select name="year" id="birthday">
+			<option>1910</option>
+			<option>1911</option>
+			<option>1912</option>
+			<option selected>1990</option>
+		</select>
+
+		<br />
+
+		<label for="TandC">I agree to the Terms and Conditions</label>
+		<input type="checkbox" name="TandC" id="TandC" required>
+		<br />
+		<button>Go!</button>
+	</form>
+
+</body>
+</html>
