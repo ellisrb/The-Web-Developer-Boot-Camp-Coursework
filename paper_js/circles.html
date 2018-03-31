@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="paper-full.js"></script>
+	<title>Tap a Key</title>
+	<link rel="stylesheet" type="text/css" href="circle.css">
+	<script type="text/paperscript" canvas="myCanvas">
+		
+				
+
+		function onKeyDown(event) {
+		//getting the size of the canvas
+		var maxPoint = new Point(view.size.width, view.size.height);
+		//generate a random number *(0.3,0.6)*
+		var randomPoint = new Point.random();
+		//times the random point and the max number*(1280,1080)*
+		var point = maxPoint * randomPoint;
+		var newCircle = new Path.Circle(point, 10).fillColor = "yellow";
+			
+			
+		}
+
+
+		var animateCircle = new Path.Circle(new Point(300,300), 100);
+		animateCircle.fillColor = "red";
+
+		function onFrame(event) {
+			animateCircle.fillColor.hue += 1;
+			animateCircle.scale(0.9);
+		}
+
+	</script>
+</head>
+<body>
+	<canvas id="myCanvas" resize></canvas>
+</body>
+</html>
